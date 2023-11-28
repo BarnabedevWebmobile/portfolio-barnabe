@@ -1,0 +1,129 @@
+/*
+Theme Name: Portfolio de Barnabe
+Theme URI: https://www.monsite.fr/
+Author: Jean Jésus
+Author URI: https://www.site-auteur.fr/
+Description: Le theme de mon portfolio ... pour conquérir le monde
+Version: 1.0
+*/
+header{
+    background-color: #22223B;
+}
+
+header nav ul{
+    display: flex;
+    padding: 0;
+    margin: none;
+    list-style: none;
+}
+header img{
+    padding: 10px;
+}
+header nav ul li{
+    font-family: 'Poly', serif;
+    list-style: none;
+    padding: 10px;
+
+}
+.utility{
+    text-decoration: none;
+    color: #F0CC87;
+}
+p{
+    font-family: 'Poly', serif;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    color: #fff;
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.banner{
+    background-color: #22223B;
+}
+.diese{
+    color: #E73C25;
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
+}
+.photo{
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+.aboutme{
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.btncenter{
+    display: flex;
+    justify-content: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #F0CC87;
+    border-color: #000;
+}
+.project{
+    background-color: #8D99AE;
+}
+.project img{
+    width: 250px;
+    height: 135px;
+}
+.btncentercard{
+    display: flex;
+    justify-content: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #778DA9;
+    border-color : #000;
+}
+.btncentercard:hover{
+    background-color: #E73C25;
+}
+.carte{
+    border-color: #000;
+
+}
+h5{
+    font-family: 'Acme', sans-serif;
+}
+.mainsection{
+    background-color: #8D99AE;
+}
+.mainsectionalt{
+    background-color: #778DA9;
+    color: #fff;
+}
+.button:hover{
+    background-color: #a2d2ff;
+    color: #E73C25;
+}
+footer{
+    background-color: #22223B;
+}
+footer p{
+    color: #fff;
+}
+@media (max-width: 768px){
+    .photo{
+        margin-left: 0;
+        padding-bottom: 50px;
+    }
+    .aboutme{
+        color: #fff;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    .btncenter{
+        display: flex;
+        justify-content: center;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
