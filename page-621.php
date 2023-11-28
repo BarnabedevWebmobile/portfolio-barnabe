@@ -1,8 +1,10 @@
+<?php get_header()?>
+
 <section class="mainsection"> <!--le a propos-->
         <div class="container">
             <div class="row">
                 <div class="col-10 col-md-5 m-5">
-                    <img class="img-fluid rounded-1" src="image/téléchargement.jpg" alt="photo">
+                    <img class="img-fluid rounded-1" src="http://localhost/wordpress/wp-content/uploads/2023/11/telechargement.jpg" alt="photo">
                 </div>
                 <div class="col-10 col-md-5 p-5 m-5">
                     <h2>À propos</h2>
@@ -33,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-10 col-md-5 m-5">
-                    <img class="img-fluid rounded-1" src="image/téléchargement.jpg" alt="photo">
+                    <img class="img-fluid rounded-1" src="http://localhost/wordpress/wp-content/uploads/2023/11/telechargement.jpg" alt="photo">
                 </div>
                 <div class="col-10 col-md-5 p-5 m-5">
                     <h2>Outils maitrisés</h2>
@@ -51,3 +53,4 @@
             </div>
         </div>
     </section>
+    <?php get_footer()?>
