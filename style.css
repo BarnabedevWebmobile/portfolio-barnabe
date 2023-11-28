@@ -1,16 +1,4 @@
-/*
-Theme Name: Portfolio de Barnabe
-Theme URI: https://www.monsite.fr/
-Author: Jean Jésus
-Author URI: https://www.site-auteur.fr/
-Description: Le theme de mon portfolio ... pour conquérir le monde
-Version: 1.0
-*/
 
-.maincontent{
-    width: 60%;
-    margin: auto;
-}
 /*
 Theme Name: Portfolio de Barnabe
 Theme URI: https://www.monsite.fr/
@@ -22,7 +10,9 @@ Version: 1.0
 header{
     background-color: #22223B;
 }
-
+.texte{
+    font-family: 'Poly', serif;
+}
 header nav ul{
     display: flex;
     padding: 0;
