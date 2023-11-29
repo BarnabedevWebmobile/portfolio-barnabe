@@ -39,7 +39,11 @@
             <img src="<?php echo bloginfo('template_directory' )."/image/projet1.png"?>" class="card-img-top ms-4 p-3" alt="onepage"> <!--l'image de la carte-->
             <div class="card-body p-3"> <!--le contenu de la carte-->
               <h5 class="card-title">Mon premier projet</h5>
-              <p class="card-text">Le premier projet que j'ai réaliser, un biographie de personage de fiction codé en html et css.</p>
+              <p class="card-text">
+                <?php $post = get_post(655);?>
+               
+                <?php   echo $post->post_content?>
+                </p>
               <a href="https://github.com/BarnabedevWebmobile/fiche-biographie-arthur-morgan" class="btncentercard btn btn-primary">github</a>
             </div>
         </div>
@@ -47,7 +51,11 @@
             <img src="<?php echo bloginfo('template_directory' )."/image/projet2.png"?>" class="card-img-top ms-4 p-3" alt="memory"><!--l'image de la carte-->
             <div class="card-body p-3"><!--le contenu de la carte-->
               <h5 class="card-title">projet en JavaScript</h5>
-              <p class="card-text">Un projet qui m'a permis d'apprendre les bases du JavaScript, en reproduisant le jeu de memory.</p>
+              <p class="card-text">
+              <?php $post = get_post(657);?>
+               
+               <?php   echo $post->post_content?>
+              </p>
               <a href="https://github.com/BarnabedevWebmobile/memory" class="btncentercard btn btn-primary">github</a>
             </div>
         </div>
@@ -55,7 +63,11 @@
             <img src="<?php echo bloginfo('template_directory' )."/image/projet3.png"?>" class="card-img-top ms-4 p-3" alt="portfolio"> <!--l'image de la carte-->
             <div class="card-body p-3"><!--le contenu de la carte-->
               <h5 class="card-title">Mon portfolio</h5>
-              <p class="card-text">Mon projet utilisant toutes les compétences acquises, HTML, CSS, JavaScript et Bootstrap.</p>
+              <p class="card-text">
+              <?php $post = get_post(659);?>
+               
+               <?php   echo $post->post_content?>
+              </p>
               <a href="https://github.com/BarnabedevWebmobile/brief2" class="btncentercard btn btn-primary ">github</a>
             </div>
         </div>
