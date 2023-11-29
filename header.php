@@ -31,15 +31,17 @@
                         <a href="http://localhost/wordpress"><img src="<?php echo bloginfo('template_directory' )."/image/vector.png"?>" alt="logo"></a>
                     </div>
                     <div class="col-12 col-md-11">
-                        <nav class="d-flex justify-content-center justify-content-md-end">
-                            <ul class="utilitymenu"><!--liste de liens mis en forme dans la nav-->
-                                <li>
-                                    <a class="utility" href="http://localhost/wordpress/?page_id=621" title="a-propos">à propos</a>
-                                </li>
-                                <li>
-                                    <a class="utility" href="http://localhost/wordpress/?page_id=609" title="contact">contact</a>
-                                </li>
-                            </ul>
+                        <nav class="utilitymenu d-flex justify-content-center justify-content-md-end"><!--liste de liens mis en forme dans la nav-->
+                            
+                                <?php
+                                    wp_nav_menu(
+                                        array(
+                                            'theme_location' => 'main-menu',
+                                            'menu_id'     => 'primary-menu',
+                                        )
+                                    );
+                                    ?>
+
                         </nav>
                     </div>
                 </div>

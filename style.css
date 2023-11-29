@@ -22,15 +22,16 @@ header nav ul{
 header img{
     padding: 10px;
 }
-header nav ul li{
+header ul li{
     font-family: 'Poly', serif;
     list-style: none;
     padding: 10px;
 
 }
-.utility{
+.utility a{
     text-decoration: none;
     color: #F0CC87;
+    font-family: 'Poly', serif;
 }
 p{
     font-family: 'Poly', serif;
@@ -109,8 +110,20 @@ h5{
 footer{
     background-color: #22223B;
 }
+footer .utility{
+    text-decoration: none;
+    color: #F0CC87;
+    font-family: 'Poly', serif;
+}
 footer p{
     color: #fff;
+}
+.direct{
+    text-decoration: none;
+    color: #fff;
+}
+.direct:hover{
+    color: #a2d2ff;
 }
 @media (max-width: 768px){
     .photo{
