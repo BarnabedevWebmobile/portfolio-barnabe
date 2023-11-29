@@ -125,6 +125,9 @@ footer p{
 .direct:hover{
     color: #a2d2ff;
 }
+#image{
+    display: none;
+}
 @media (max-width: 768px){
     .photo{
         margin-left: 0;

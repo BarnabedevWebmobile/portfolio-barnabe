@@ -27,7 +27,7 @@
                 <div class="col-5 m-5 justify-content-center align-item-center">
                     <h2>expériences professionnels/étude</h2>
                     <br>
-                    <span class="texte">
+                    <span class="texte" id="cast">
                         <?php
                             $post = get_post(647)
                         ?>
@@ -35,7 +35,9 @@
                         <?php 
                         echo $post->post_content
                         ?>
+                        
                     </span>
+                    <img src="<?php echo bloginfo('template_directory' )."/image/photo.jpg"?>" alt="flemme" id="image">
                 </div>
             </div>
         </div>
