@@ -35,24 +35,24 @@
 <section class="project"> <!--l'ensemble des cartes-->
 <div class="container">
     <div class="row justify-content-center animate__animated animate__lightSpeedInLeft"> 
-        <div class="col-10 col-md-3 card p-3 m-3 carte"><!--la carte-->
-            <img src="<?php echo bloginfo('template_directory' )."/image/projet1.png"?>" class="card-img-top ms-4 p-3" alt="onepage"> <!--l'image de la carte-->
+        <div class="col-10 col-md-4 card p-3 m-3 carte"><!--la carte-->
+            <img src="<?php echo bloginfo('template_directory' )."/image/projet1.png"?>" class="card-img-top p-3 img-fluid" alt="onepage"> <!--l'image de la carte-->
             <div class="card-body p-3"> <!--le contenu de la carte-->
               <h5 class="card-title">Mon premier projet</h5>
               <p class="card-text">Le premier projet que j'ai réaliser, un biographie de personage de fiction codé en html et css.</p>
               <a href="https://github.com/BarnabedevWebmobile/fiche-biographie-arthur-morgan" class="btncentercard btn btn-primary">github</a>
             </div>
         </div>
-        <div class="col-10 col-md-3 card p-3 m-3 carte "><!--la carte-->
-            <img src="<?php echo bloginfo('template_directory' )."/image/projet2.png"?>" class="card-img-top ms-4 p-3" alt="memory"><!--l'image de la carte-->
+        <div class="col-10 col-md-4 card p-3 m-3 carte "><!--la carte-->
+            <img src="<?php echo bloginfo('template_directory' )."/image/projet2.png"?>" class="card-img-top p-3 img-fluid" alt="memory"><!--l'image de la carte-->
             <div class="card-body p-3"><!--le contenu de la carte-->
               <h5 class="card-title">projet en JavaScript</h5>
               <p class="card-text">Un projet qui m'a permis d'apprendre les bases du JavaScript, en reproduisant le jeu de memory.</p>
               <a href="https://github.com/BarnabedevWebmobile/memory" class="btncentercard btn btn-primary">github</a>
             </div>
         </div>
-        <div class="col-10 col-md-3 card p-3 m-3 carte "> <!--la carte-->
-            <img src="<?php echo bloginfo('template_directory' )."/image/projet3.png"?>" class="card-img-top ms-4 p-3" alt="portfolio"> <!--l'image de la carte-->
+        <div class="col-10 col-md-4 card p-3 m-3 carte "> <!--la carte-->
+            <img src="<?php echo bloginfo('template_directory' )."/image/projet3.png"?>" class="card-img-top p-3 img-fluid" alt="portfolio"> <!--l'image de la carte-->
             <div class="card-body p-3"><!--le contenu de la carte-->
               <h5 class="card-title">Mon portfolio</h5>
               <p class="card-text">Mon projet utilisant toutes les compétences acquises, HTML, CSS, JavaScript et Bootstrap.</p>

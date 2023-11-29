@@ -73,10 +73,7 @@ h2{
 .project{
     background-color: #8D99AE;
 }
-.project img{
-    width: 250px;
-    height: 135px;
-}
+
 .btncentercard{
     display: flex;
     justify-content: center;
@@ -126,7 +123,15 @@ footer p{
     .btncenter{
         display: flex;
         justify-content: center;
-        margin-left: 75px;
-        margin-right: 75px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .btncentercard{
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #778DA9;
+        border-color : #000;
     }
 }
